@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"6989921966f2421e988d03e4cc0735c8","collectionName":"predicted_genes","type":"collection"}

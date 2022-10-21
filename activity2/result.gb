@@ -1,0 +1,103 @@
+LOCUS       XP_030957800            1121 aa            linear   PLN 07-OCT-2019
+DEFINITION  phytochrome A [Quercus lobata].
+ACCESSION   XP_030957800
+VERSION     XP_030957800.1
+DBLINK      BioProject: PRJNA574457
+DBSOURCE    REFSEQ: accession XM_031101940.1
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044906.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1121
+                     /organism="Quercus lobata"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="3"
+                     /tissue_type="leaf"
+                     /country="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     Protein         1..1121
+                     /product="phytochrome A"
+                     /calculated_mol_wt=123789
+     Region          79..>585
+                     /region_name="COG4251"
+                     /note="Bacteriophytochrome (light-regulated signal
+                     transduction histidine kinase) [Signal transduction
+                     mechanisms]"
+                     /db_xref="CDD:226702"
+     Region          620..734
+                     /region_name="PAS"
+                     /note="PAS fold; pfam00989"
+                     /db_xref="CDD:395786"
+     Region          749..872
+                     /region_name="PAS"
+                     /note="PAS fold; pfam00989"
+                     /db_xref="CDD:395786"
+     Region          <876..1121
+                     /region_name="BaeS"
+                     /note="Signal transduction histidine kinase [Signal
+                     transduction mechanisms]; COG0642"
+                     /db_xref="CDD:223715"
+     Region          1005..1116
+                     /region_name="HATPase_Phy-like"
+                     /note="Histidine kinase-like ATPase domain of plant
+                     phytochromes similar to Arabidopsis thaliana Phytochrome
+                     A, B, C, D and E; cd16932"
+                     /db_xref="CDD:340409"
+     Site            order(1017,1021,1024,1056,1058,1060,1062..1063,1082..1085,
+                     1101,1103,1107..1108,1110)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:340409"
+     Site            order(1069,1085)
+                     /site_type="other"
+                     /note="ATP-lid"
+                     /db_xref="CDD:340409"
+     CDS             1..1121
+                     /gene="LOC115979870"
+                     /coded_by="XM_031101940.1:1110..4475"
+                     /db_xref="GeneID:115979870"
+ORIGIN      
+        1 msssrpshss snsgrsrhsa riiaqttvda klhadfessg dsfdysssvr vtsavtgdqq
+       61 prsdkvttay lhhiqkgkli qpfgcllald dktfkviays enapemltmv shavpsvgdh
+      121 pvlgigtdvr tiftapsasa lqkalgfadv sllnpilvhc ktsgkpfyai vhrvtgglii
+      181 dfepvkpyev pmtaagalqs yklaakaitr lqslpsgsme rlcdtmvqev feltgydrvm
+      241 aykfhdddhg evvseitkpg lepylglhyp atdipqaarf lfmknkvrli vdcharnvkv
+      301 lqdeklpfdl tlcgstlrap hschlqymen mnsiaslvma vvvnegdeeg dnsnsvqpqk
+      361 rkrlwglvvc hnttprfvpf plryacefla qvfaihvnke lelenqivek nilrtqtllc
+      421 dllmrdaplg ivsqspnimd lvkcdgavll yknkiwrlgv tpsdfqlhdi aswlekyhmd
+      481 stglstdsly dagfpgalal gdevcgmaav ritskdmifw frshtaaeiq wggakhepge
+      541 kddgrrmhpr ssfkafldvv ktrslpwkdy emdaihslql ilrnafkdve atgisnnain
+      601 mklsdlkieg mqeleavtse mvrlietatv pilavdvdgl ingwntkiae ltglavdkai
+      661 gnhfltlved sstdmvkrml slalqgkeeq niqfeikthg sksdsgpisl vvnacasrdl
+      721 rdnvvgvcfv aqditgqkiv mdkftriegd ykaivqnpnp lippifgtde fgwccewnpa
+      781 mtvvsgwtre evidkmllge vfgthtsccr lknqeafvnl gvvlnnvmtg qesekvtfgf
+      841 farsgkyvec llcvskkldr egavtgvfcf lqlasqelqq alhiqrlseq tamkrlkala
+      901 yikrqirnpl sgiifsrkmm egtelgveqk qllhtsvqcq hqiskvidds dldsiidgyl
+      961 dlemveftlh eilvasisqv mtkssdkgil mvndvaeeiv netlygdsir lqqvladfll
+     1021 isvnyaatgg qlnvaasltk dqlgqsvhla rlelrishsg ggvpeallnq mfgtdgdpse
+     1081 egislfisrk llklmngdvr ylreagkstf iisvelaatq k
+//

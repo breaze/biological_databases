@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"5e69622e238e4b71ab35e53e8a8a315d","collectionName":"protein_domains","type":"collection"}

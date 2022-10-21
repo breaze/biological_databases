@@ -1,0 +1,44 @@
+{
+  "assemblies": [
+    {
+      "name": "ptg000002l",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "ptg000002l-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "ptg000002l.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "ptg000002l.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "ptg000002l.fasta.TEanno",
+      "name": "ptg000002l.fasta.TEanno",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "ptg000002l.fasta.TEanno.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "ptg000002l"
+      ]
+    }
+  ]
+}
